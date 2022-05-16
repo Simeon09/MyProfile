@@ -1,0 +1,111 @@
+.contact{
+    display: flex;
+    font-family: 'Manrope';
+    @media screen and (max-width:700px) {
+       display: grid; 
+    }
+    .socialContact{
+        width: 50%;
+        text-align: -webkit-left;
+        padding-left: 3vw;
+        padding-top: 100px;
+        h1{
+            padding-bottom: 10px;
+        }
+        p{
+            line-height: 27px;
+            font-size: 16px;
+        }
+        p+span{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            padding-top: 20px;
+            padding-bottom: 50px;
+        }
+        div{
+            display: flex;
+            gap: 20px;
+            padding-bottom: 30px;
+            h6{
+                font-size: 16px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+        @media screen and (max-width:700px) {
+            width: 100%; 
+         } 
+
+    }
+    .Message{
+        width: 50%;
+        background: #1C41B0;
+        text-align: -webkit-left;
+        padding-left: 3vw;
+        padding-top: 70px;
+        h2{
+            color: lightskyblue;
+        }
+        h1{
+            color: white;
+            padding-bottom: 20px;
+        }
+        label{
+            color: #FFFFFF;
+            padding-bottom: 20px;
+        }
+        input{
+            outline: nonr;
+            background-color: transparent;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            border-bottom: 3px 20px;
+            width: 80%;
+            margin-bottom: 20px;
+            color: white;
+            &:focus{
+                
+                outline: none !important;
+            }
+        }
+        textarea{
+            outline: nonr;
+            background-color: transparent;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            border-bottom: 3px 20px;
+            width: 80%;
+            margin-bottom: 10px;
+            color: white;  
+            &:focus{
+                
+                outline: none !important;
+            }
+        }
+        button{
+            padding: 10px 20px;
+            margin-top: 10px;
+            font-family: 'Manrope';
+            border-radius: 10px;
+            background-color: #FFFFFF;
+            outline: none;
+            border: #FFFFFF;
+            color: #2351DC;
+            &:hover{
+                background-color: #2351DC;
+                color: white;
+            }
+            
+        }
+        @media screen and (max-width:700px) {
+            width: 100%; 
+            padding-bottom: 30px;
+         } 
+
+
+    }
+}

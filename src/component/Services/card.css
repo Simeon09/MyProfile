@@ -1,0 +1,62 @@
+.cards {
+  padding-top: 60px;
+  text-align: justify;
+}
+
+@media screen and (min-width: 985px) {
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .cards .cardBox {
+    width: 300px;
+    text-align: justify;
+  }
+}
+
+@media screen and (min-width: 985px) and (min-width: 1221px) {
+  .cards .cardBox {
+    width: 380px;
+  }
+}
+
+.cardBox {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.cardBox p {
+  text-align: justify;
+}
+
+@media screen and (min-width: 727px) {
+  .cardBox p {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 985px) {
+  .cardBox p {
+    text-align: justify;
+  }
+}
+
+.cardBox:hover {
+  -webkit-box-shadow: 0 3px 10px #a39494;
+          box-shadow: 0 3px 10px #a39494;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Manrope';
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+/*# sourceMappingURL=card.css.map */

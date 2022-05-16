@@ -1,0 +1,93 @@
+.sectionOne{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-family: 'Manrope';
+     background:linear-gradient(90deg, white 55%,  #D3DCF8 45%);
+    div:first-child{
+        text-align: justify;
+        padding-top: 90px;
+        h6{
+            font-size: 18px;
+            color: #2351DC;
+            padding-bottom: 20px;
+            font-weight: 300;
+            line-height: 24.59px;
+        }
+        h3{
+            font-size: 24px;
+            color: #2351DC;
+            font-weight: 700;
+            line-height: 32.78px;
+            padding-bottom: 20px;
+        }
+        h1{
+            font-size: 30px;
+            font-weight: 800;
+            padding-bottom: 20px;
+            line-height: 50px;
+          
+            @media screen and (max-width:427px){
+                font-size: 24px; 
+             }
+             @media screen and (max-width:338px){
+                font-size: 20px; 
+             }
+        }
+        span{
+            img{
+
+                padding-right: 3vw;
+            }
+        }
+    }
+    div:nth-child(2){
+        img{
+            width: 100%;
+            min-height: 100%;
+        }
+    }
+    @media screen and (max-width:872px) {
+        display: grid;
+        background:linear-gradient(90deg, white 55%,  white 45%);
+    }
+    
+}
+article{
+    font-family: 'Manrope';
+    background-color:  #F6F8FE;
+    padding-top: 40px;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    text-align: justify;
+
+    h1{
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 35px;
+    }
+    p{
+        line-height: 28px;
+    }
+    a {
+        padding-right: 10px;
+        img{
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+    @media screen and (min-width:872px) {
+        justify-content: center;
+        text-align: -webkit-center;
+        p{
+            width: 450px;
+            justify-content: center;
+            font-size: 18px;
+        }
+        h1{
+            font-size: 45px;
+        }
+    }
+
+}

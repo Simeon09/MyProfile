@@ -1,0 +1,89 @@
+.testimony {
+    font-family: 'Manrope';
+    display: flex;
+    gap: 10px;
+    
+    @media screen and (max-width:823px) {
+        display: grid;
+    }
+
+    .fristChild {
+        background: #1F49C6;
+        width: 30%;
+        height: 700px;
+        
+        
+        h1{
+            padding-top: 50vh;
+            color: white;
+            font-size: 24px;
+            @media screen and(min-width:1112px) {
+              font-size: 35px;  
+            }
+        }
+        @media screen and (max-width:823px) {
+            width: 100%;
+            height: 200px;
+            h1{
+                padding-top: 10vh;
+                color: white;
+                font-size: 30px;
+            }
+        }
+
+    }
+
+    .secondDiv {
+        display: flex;
+        justify-content: space-evenly;
+        width: 70%;
+        // padding-top: 30px;
+        // padding-bottom: 30px;
+        align-items: center;
+        @media screen and (max-width:823px) {
+            width: 100%;
+            display: grid;
+            padding-top: 50px;
+            
+        }
+
+        div:first-child {
+
+            span {
+                h6 {
+                    padding: 10px;
+                    font-size: 24px;
+                }
+
+                p {
+
+                    padding-bottom: 50px;
+                    line-height: 27px;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        div:nth-child(2) {
+            span {
+                h6 {
+                    padding: 10px;
+                    font-size: 24px;
+                }
+
+                p {
+
+                    padding-bottom: 50px;
+                    line-height: 27px;
+                    font-size: 16px;
+                }
+            }
+            @media screen and (max-width:823px) {
+                display: none;
+            }
+        }
+
+    }
+
+
+}

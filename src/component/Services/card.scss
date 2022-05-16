@@ -1,0 +1,48 @@
+.cards {
+    padding-top: 60px;
+    text-align: justify;
+   
+    @media screen and (min-width:985px) {
+        display: flex;
+        justify-content: space-between;
+       
+        .cardBox{
+           width: 300px;
+            text-align: justify;
+            @media screen and (min-width:1221px) {
+                width: 380px;
+                
+             }
+        }
+    }
+}
+
+.cardBox {
+    text-align: center;
+    padding-bottom: 30px;
+
+    p {
+        text-align: justify;
+        @media screen and (min-width:727px) {
+            
+            text-align: center; 
+         }
+         @media screen and (min-width:985px) {
+            text-align: justify; 
+         }
+
+    }
+  
+}
+.cardBox:hover{
+ box-shadow: 0 3px 10px rgb(163, 148, 148);
+ padding: 20px;
+ border-radius: 10px;
+}
+.title{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Manrope';
+    padding-bottom: 10px;
+    padding-top: 10px;
+}

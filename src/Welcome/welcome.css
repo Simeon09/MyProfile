@@ -1,0 +1,13 @@
+.message{
+     color: blue;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+     padding-top: 40vh; 
+    text-transform: uppercase;
+    font-family: 'Manrope'; 
+     
+}
+body{
+    background-color:#F6F8FE;
+}

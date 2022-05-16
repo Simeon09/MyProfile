@@ -1,0 +1,75 @@
+.picturePro {
+    width: 70px;
+    padding-top: 20px;
+}
+.pictureProboost{
+    width: 80px;
+    padding-left: 0px;
+    background-color: rgb(137, 137, 246);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.picturereact{
+    width: 80px;
+    padding-top: 20px;
+}
+.mySkills{
+    h1{
+        font-size: 40px;
+
+    }
+    p{
+        font-size: 18px;
+    }
+
+padding-top: 30px;
+text-align: justify;
+padding-left: 3vw;
+padding-right: 3vw;
+font-family: 'Manrope';
+padding-bottom: 70px;
+    .skills {
+        padding-top: 30px;
+        label{
+            font-weight: 600;
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+        
+        div:first-child {
+            display: grid;
+    
+            span {
+                display: flex;
+                align-items: center;
+                text-align: justify;
+                div{
+                    padding-left: 20px;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    
+        div:nth-child(2) {
+            display: grid;
+            span {
+                display: flex;
+                align-items: center;
+                text-align: justify;
+                div{
+                    padding-left: 20px;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        @media screen and (min-width:700px){
+            display: flex;
+            gap: 10vw;
+        }
+    }
+}

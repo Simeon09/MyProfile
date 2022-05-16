@@ -1,0 +1,119 @@
+.sectionOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  font-family: 'Manrope';
+  background: -webkit-gradient(linear, left top, right top, color-stop(55%, white), color-stop(45%, #D3DCF8));
+  background: linear-gradient(90deg, white 55%, #D3DCF8 45%);
+}
+
+.sectionOne div:first-child {
+  text-align: justify;
+  padding-top: 90px;
+}
+
+.sectionOne div:first-child h6 {
+  font-size: 18px;
+  color: #2351DC;
+  padding-bottom: 20px;
+  font-weight: 300;
+  line-height: 24.59px;
+}
+
+.sectionOne div:first-child h3 {
+  font-size: 24px;
+  color: #2351DC;
+  font-weight: 700;
+  line-height: 32.78px;
+  padding-bottom: 20px;
+}
+
+.sectionOne div:first-child h1 {
+  font-size: 30px;
+  font-weight: 800;
+  padding-bottom: 20px;
+  line-height: 50px;
+}
+
+@media screen and (max-width: 427px) {
+  .sectionOne div:first-child h1 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 338px) {
+  .sectionOne div:first-child h1 {
+    font-size: 20px;
+  }
+}
+
+.sectionOne div:first-child span img {
+  padding-right: 3vw;
+}
+
+.sectionOne div:nth-child(2) img {
+  width: 100%;
+  min-height: 100%;
+}
+
+@media screen and (max-width: 872px) {
+  .sectionOne {
+    display: -ms-grid;
+    display: grid;
+    background: -webkit-gradient(linear, left top, right top, color-stop(55%, white), color-stop(45%, white));
+    background: linear-gradient(90deg, white 55%, white 45%);
+  }
+}
+
+article {
+  font-family: 'Manrope';
+  background-color: #F6F8FE;
+  padding-top: 40px;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  text-align: justify;
+}
+
+article h1 {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 35px;
+}
+
+article p {
+  line-height: 28px;
+}
+
+article a {
+  padding-right: 10px;
+}
+
+article a img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 872px) {
+  article {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: -webkit-center;
+  }
+  article p {
+    width: 450px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 18px;
+  }
+  article h1 {
+    font-size: 45px;
+  }
+}
+/*# sourceMappingURL=Home.css.map */

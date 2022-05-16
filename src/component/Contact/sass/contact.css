@@ -1,0 +1,141 @@
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Manrope';
+}
+
+@media screen and (max-width: 700px) {
+  .contact {
+    display: -ms-grid;
+    display: grid;
+  }
+}
+
+.contact .socialContact {
+  width: 50%;
+  text-align: -webkit-left;
+  padding-left: 3vw;
+  padding-top: 100px;
+}
+
+.contact .socialContact h1 {
+  padding-bottom: 10px;
+}
+
+.contact .socialContact p {
+  line-height: 27px;
+  font-size: 16px;
+}
+
+.contact .socialContact p + span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.contact .socialContact div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+
+.contact .socialContact div h6 {
+  font-size: 16px;
+}
+
+.contact .socialContact div p {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 700px) {
+  .contact .socialContact {
+    width: 100%;
+  }
+}
+
+.contact .Message {
+  width: 50%;
+  background: #1C41B0;
+  text-align: -webkit-left;
+  padding-left: 3vw;
+  padding-top: 70px;
+}
+
+.contact .Message h2 {
+  color: lightskyblue;
+}
+
+.contact .Message h1 {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.contact .Message label {
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
+
+.contact .Message input {
+  outline: nonr;
+  background-color: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 3px 20px;
+  width: 80%;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.contact .Message input:focus {
+  outline: none !important;
+}
+
+.contact .Message textarea {
+  outline: nonr;
+  background-color: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 3px 20px;
+  width: 80%;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.contact .Message textarea:focus {
+  outline: none !important;
+}
+
+.contact .Message button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-family: 'Manrope';
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  outline: none;
+  border: #FFFFFF;
+  color: #2351DC;
+}
+
+.contact .Message button:hover {
+  background-color: #2351DC;
+  color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .contact .Message {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=contact.css.map */
