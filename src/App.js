@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       {/* <Home/> */}
-      <BrowserRouter>
+      <BrowserRouter basename="/MyProfile">
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route element={<ProtectedRoutes />}>
