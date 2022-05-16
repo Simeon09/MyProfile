@@ -1,6 +1,6 @@
 import Home from "./component/Home/Home";
 import "./App.css";
-import Welcome from "./Welcome/Welcome";
+import Welcome from "./component/Welcome/Welcome";
 import ProtectedRoutes from "./component/ProtectedRoutes/ProtectedRoutes";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
