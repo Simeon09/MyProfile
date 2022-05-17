@@ -1,3 +1,24 @@
+This is project is my portfolio which is built with react.js, used route , protected route and also session storage.
+link to the live view
+
+<a href="https://simeonmyprofile.netlify.app/home"> click here to view </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
