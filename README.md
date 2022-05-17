@@ -1,7 +1,7 @@
 This is project is my portfolio which is built with react.js, used route , protected route and also session storage.
 link to the live view
 
-<a href="https://simeonmyprofile.netlify.app/home"> click here to view </a>
+<a href="https://simeonmyprofile.netlify.app/home" target="_blank"> click here to view </a>
 
 
 
